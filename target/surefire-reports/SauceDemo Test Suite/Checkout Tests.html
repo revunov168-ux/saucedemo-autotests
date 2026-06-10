@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Checkout Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Checkout Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 10 12:09:26 MSK 2026</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14924 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutEmptyLastName()'><b>testCheckoutEmptyLastName</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-003: ѕустое поле Last Name Ч ошибка валидации</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutEmptyZip()'><b>testCheckoutEmptyZip</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-004: ѕустое поле Postal Code Ч ошибка валидации</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutAllFieldsEmpty()'><b>testCheckoutAllFieldsEmpty</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-005: ¬се пол€ пустые Ч ошибка валидации</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutSummaryData()'><b>testCheckoutSummaryData</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-006: ќбзор заказа Ч проверка данных</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutEmptyFirstName()'><b>testCheckoutEmptyFirstName</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-002: ѕустое поле First Name Ч ошибка валидации</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testFullCheckoutFlow()'><b>testFullCheckoutFlow</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-001: ѕолный цикл Ч от входа до подтверждени€</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutTest.testCheckoutCancelOnStep1()'><b>testCheckoutCancelOnStep1</b><br>Test class: com.saucedemo.tests.CheckoutTest<br>Test method: TC-CHK-007: Cancel на шаге 1 Ч возврат в корзину</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CheckoutTest@7d900ecf</td></tr>
+</table><p>
+</body>
+</html>

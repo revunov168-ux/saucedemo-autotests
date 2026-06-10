@@ -1,0 +1,9 @@
+com\saucedemo\utils\ScreenshotUtils.class
+com\saucedemo\pages\CheckoutPage.class
+com\saucedemo\config\Config.class
+com\saucedemo\pages\BasePage.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\pages\InventoryPage.class
+com\saucedemo\utils\DriverManager.class
+com\saucedemo\pages\CartPage.class
+com\saucedemo\utils\ReportManager.class

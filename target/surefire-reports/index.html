@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemo Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Дмитрий\Downloads\saucedemo_java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="hide-methods passed suite-SauceDemo_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Test_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="show-methods passed suite-SauceDemo_Test_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testAddMultipleItemsToCart">testAddMultipleItemsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testAddOneItemToCart">testAddOneItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(locked_out_user, false, locked_out_user — должен быть отказ)">testAllUsersLogin(locked_out_user, false, locked_out_user — должен быть отказ)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(error_user, true, error_user — должен войти)">testAllUsersLogin(error_user, true, error_user — должен войти)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(standard_user, true, standard_user — должен войти)">testAllUsersLogin(standard_user, true, standard_user — должен войти)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(problem_user, true, problem_user — должен войти)">testAllUsersLogin(problem_user, true, problem_user — должен войти)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(visual_user, true, visual_user — должен войти)">testAllUsersLogin(visual_user, true, visual_user — должен войти)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testAllUsersLogin(performance_glitch_user, true, performance_glitch_user — должен войти)">testAllUsersLogin(performance_glitch_user, true, performance_glitch_user — должен войти)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testCartEmptyAfterRemoveAll">testCartEmptyAfterRemoveAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutAllFieldsEmpty">testCheckoutAllFieldsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testCheckoutButtonNavigation">testCheckoutButtonNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutCancelOnStep1">testCheckoutCancelOnStep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutEmptyFirstName">testCheckoutEmptyFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutEmptyLastName">testCheckoutEmptyLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutEmptyZip">testCheckoutEmptyZip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutSummaryData">testCheckoutSummaryData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testContinueShopping">testContinueShopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="testFullCheckoutFlow">testFullCheckoutFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testItemAppearsInCart">testItemAppearsInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginBothFieldsEmpty">testLoginBothFieldsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginEmptyPassword">testLoginEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginEmptyUsername">testLoginEmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginLockedOutUser">testLoginLockedOutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginPerformanceUser">testLoginPerformanceUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginStandardUser">testLoginStandardUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWrongPassword">testLoginWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWrongUsername">testLoginWrongUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="testRemoveItemFromCart">testRemoveItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo_Test_Suite" class="panel SauceDemo_Test_Suite">
+          <div class="suite-SauceDemo_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(locked_out_user, false, locked_out_user — должен быть отказ)">
+                  </a> <!-- testAllUsersLogin(locked_out_user, false, locked_out_user — должен быть отказ) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(locked_out_user,false,locked_out_user — должен быть отказ)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(error_user, true, error_user — должен войти)">
+                  </a> <!-- testAllUsersLogin(error_user, true, error_user — должен войти) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(error_user,true,error_user — должен войти)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(standard_user, true, standard_user — должен войти)">
+                  </a> <!-- testAllUsersLogin(standard_user, true, standard_user — должен войти) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(standard_user,true,standard_user — должен войти)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(problem_user, true, problem_user — должен войти)">
+                  </a> <!-- testAllUsersLogin(problem_user, true, problem_user — должен войти) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(problem_user,true,problem_user — должен войти)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(visual_user, true, visual_user — должен войти)">
+                  </a> <!-- testAllUsersLogin(visual_user, true, visual_user — должен войти) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(visual_user,true,visual_user — должен войти)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersLogin(performance_glitch_user, true, performance_glitch_user — должен войти)">
+                  </a> <!-- testAllUsersLogin(performance_glitch_user, true, performance_glitch_user — должен войти) -->
+                  <span class="method-name">testAllUsersLogin</span>
+                  <span class="parameters">(performance_glitch_user,true,performance_glitch_user — должен войти)</span>
+                  <em>
+(TC-LOGIN-010: Проверка входа для всех 6 ролей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginBothFieldsEmpty">
+                  </a> <!-- testLoginBothFieldsEmpty -->
+                  <span class="method-name">testLoginBothFieldsEmpty</span>
+                  <em>
+(TC-LOGIN-006: Оба поля пустые)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyPassword">
+                  </a> <!-- testLoginEmptyPassword -->
+                  <span class="method-name">testLoginEmptyPassword</span>
+                  <em>
+(TC-LOGIN-005: Попытка входа с пустым паролем)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyUsername">
+                  </a> <!-- testLoginEmptyUsername -->
+                  <span class="method-name">testLoginEmptyUsername</span>
+                  <em>
+(TC-LOGIN-004: Попытка входа с пустым логином)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginLockedOutUser">
+                  </a> <!-- testLoginLockedOutUser -->
+                  <span class="method-name">testLoginLockedOutUser</span>
+                  <em>
+(TC-LOGIN-002: Вход locked_out_user — ожидается блокировка)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPerformanceUser">
+                  </a> <!-- testLoginPerformanceUser -->
+                  <span class="method-name">testLoginPerformanceUser</span>
+                  <em>
+(TC-LOGIN-003: Вход performance_glitch_user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginStandardUser">
+                  </a> <!-- testLoginStandardUser -->
+                  <span class="method-name">testLoginStandardUser</span>
+                  <em>
+(TC-LOGIN-001: Успешный вход standard_user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWrongPassword">
+                  </a> <!-- testLoginWrongPassword -->
+                  <span class="method-name">testLoginWrongPassword</span>
+                  <em>
+(TC-LOGIN-008: Неверный пароль)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWrongUsername">
+                  </a> <!-- testLoginWrongUsername -->
+                  <span class="method-name">testLoginWrongUsername</span>
+                  <em>
+(TC-LOGIN-007: Неверный логин)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                  <em>
+(TC-LOGIN-009: Успешный выход из системы)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
+          <div class="suite-SauceDemo_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddMultipleItemsToCart">
+                  </a> <!-- testAddMultipleItemsToCart -->
+                  <span class="method-name">testAddMultipleItemsToCart</span>
+                  <em>
+(TC-CART-002: Добавить 3 товара в корзину)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddOneItemToCart">
+                  </a> <!-- testAddOneItemToCart -->
+                  <span class="method-name">testAddOneItemToCart</span>
+                  <em>
+(TC-CART-001: Добавить 1 товар в корзину)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartEmptyAfterRemoveAll">
+                  </a> <!-- testCartEmptyAfterRemoveAll -->
+                  <span class="method-name">testCartEmptyAfterRemoveAll</span>
+                  <em>
+(TC-CART-005: Корзина пуста после удаления всех товаров)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutButtonNavigation">
+                  </a> <!-- testCheckoutButtonNavigation -->
+                  <span class="method-name">testCheckoutButtonNavigation</span>
+                  <em>
+(TC-CART-007: Кнопка Checkout открывает оформление заказа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContinueShopping">
+                  </a> <!-- testContinueShopping -->
+                  <span class="method-name">testContinueShopping</span>
+                  <em>
+(TC-CART-006: Кнопка Continue Shopping → каталог)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testItemAppearsInCart">
+                  </a> <!-- testItemAppearsInCart -->
+                  <span class="method-name">testItemAppearsInCart</span>
+                  <em>
+(TC-CART-003: Добавленный товар отображается в корзине)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveItemFromCart">
+                  </a> <!-- testRemoveItemFromCart -->
+                  <span class="method-name">testRemoveItemFromCart</span>
+                  <em>
+(TC-CART-004: Удалить товар из корзины)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
+          <div class="suite-SauceDemo_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutAllFieldsEmpty">
+                  </a> <!-- testCheckoutAllFieldsEmpty -->
+                  <span class="method-name">testCheckoutAllFieldsEmpty</span>
+                  <em>
+(TC-CHK-005: Все поля пустые — ошибка валидации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutCancelOnStep1">
+                  </a> <!-- testCheckoutCancelOnStep1 -->
+                  <span class="method-name">testCheckoutCancelOnStep1</span>
+                  <em>
+(TC-CHK-007: Cancel на шаге 1 — возврат в корзину)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutEmptyFirstName">
+                  </a> <!-- testCheckoutEmptyFirstName -->
+                  <span class="method-name">testCheckoutEmptyFirstName</span>
+                  <em>
+(TC-CHK-002: Пустое поле First Name — ошибка валидации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutEmptyLastName">
+                  </a> <!-- testCheckoutEmptyLastName -->
+                  <span class="method-name">testCheckoutEmptyLastName</span>
+                  <em>
+(TC-CHK-003: Пустое поле Last Name — ошибка валидации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutEmptyZip">
+                  </a> <!-- testCheckoutEmptyZip -->
+                  <span class="method-name">testCheckoutEmptyZip</span>
+                  <em>
+(TC-CHK-004: Пустое поле Postal Code — ошибка валидации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutSummaryData">
+                  </a> <!-- testCheckoutSummaryData -->
+                  <span class="method-name">testCheckoutSummaryData</span>
+                  <em>
+(TC-CHK-006: Обзор заказа — проверка данных)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFullCheckoutFlow">
+                  </a> <!-- testFullCheckoutFlow -->
+                  <span class="method-name">testFullCheckoutFlow</span>
+                  <em>
+(TC-CHK-001: Полный цикл — от входа до подтверждения)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
+        </div> <!-- panel SauceDemo_Test_Suite -->
+        <div panel-name="test-xml-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Дмитрий\Downloads\saucedemo_java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemo Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;headless&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;baseUrl&quot; value=&quot;https://www.saucedemo.com&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Checkout Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout Tests --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo_Test_Suite');
+function tableData_SauceDemo_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCartEmptyAfterRemoveAll')
+data.setCell(0, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(0, 3, 20463);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginPerformanceUser')
+data.setCell(1, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(1, 3, 5242);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAllUsersLogin')
+data.setCell(2, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(2, 3, 5235);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogout')
+data.setCell(3, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(3, 3, 3880);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFullCheckoutFlow')
+data.setCell(4, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(4, 3, 750);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckoutSummaryData')
+data.setCell(5, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(5, 3, 686);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCheckoutEmptyLastName')
+data.setCell(6, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(6, 3, 641);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCheckoutEmptyFirstName')
+data.setCell(7, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(7, 3, 607);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCheckoutEmptyZip')
+data.setCell(8, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(8, 3, 576);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCheckoutAllFieldsEmpty')
+data.setCell(9, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(9, 3, 469);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRemoveItemFromCart')
+data.setCell(10, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(10, 3, 464);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCheckoutCancelOnStep1')
+data.setCell(11, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(11, 3, 447);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCheckoutButtonNavigation')
+data.setCell(12, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(12, 3, 418);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testItemAppearsInCart')
+data.setCell(13, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(13, 3, 400);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAddMultipleItemsToCart')
+data.setCell(14, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(14, 3, 358);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testContinueShopping')
+data.setCell(15, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(15, 3, 355);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLoginStandardUser')
+data.setCell(16, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(16, 3, 294);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAddOneItemToCart')
+data.setCell(17, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(17, 3, 286);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLoginLockedOutUser')
+data.setCell(18, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(18, 3, 284);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testLoginWrongUsername')
+data.setCell(19, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(19, 3, 240);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testAllUsersLogin')
+data.setCell(20, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(20, 3, 233);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAllUsersLogin')
+data.setCell(21, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(21, 3, 231);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testAllUsersLogin')
+data.setCell(22, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(22, 3, 231);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLoginEmptyPassword')
+data.setCell(23, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(23, 3, 228);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLoginWrongPassword')
+data.setCell(24, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(24, 3, 223);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testAllUsersLogin')
+data.setCell(25, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(25, 3, 222);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testLoginEmptyUsername')
+data.setCell(26, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(26, 3, 204);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLoginBothFieldsEmpty')
+data.setCell(27, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(27, 3, 201);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testAllUsersLogin')
+data.setCell(28, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(28, 3, 195);
+window.suiteTableData['SauceDemo_Test_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-SauceDemo_Test_Suite">
+              </div> <!-- times-div-SauceDemo_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginStandardUser</span>
+                <span class="method-start">1946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginStandardUser status=SUCCESS method=LoginTest.testLoginStandardUser()[pri:1...)</span>
+                <span class="method-start">2242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">2354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginLockedOutUser</span>
+                <span class="method-start">3650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginLockedOutUser status=SUCCESS method=LoginTest.testLoginLockedOutUser()[pri...)</span>
+                <span class="method-start">3935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">4031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPerformanceUser</span>
+                <span class="method-start">5309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginPerformanceUser status=SUCCESS method=LoginTest.testLoginPerformanceUser()...)</span>
+                <span class="method-start">10551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">10661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyUsername</span>
+                <span class="method-start">11966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginEmptyUsername status=SUCCESS method=LoginTest.testLoginEmptyUsername()[pri...)</span>
+                <span class="method-start">12170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">12274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyPassword</span>
+                <span class="method-start">13657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginEmptyPassword status=SUCCESS method=LoginTest.testLoginEmptyPassword()[pri...)</span>
+                <span class="method-start">13885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">13986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginBothFieldsEmpty</span>
+                <span class="method-start">15281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginBothFieldsEmpty status=SUCCESS method=LoginTest.testLoginBothFieldsEmpty()...)</span>
+                <span class="method-start">15482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">15596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWrongUsername</span>
+                <span class="method-start">16921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWrongUsername status=SUCCESS method=LoginTest.testLoginWrongUsername()[pri...)</span>
+                <span class="method-start">17161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">17250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWrongPassword</span>
+                <span class="method-start">18636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWrongPassword status=SUCCESS method=LoginTest.testLoginWrongPassword()[pri...)</span>
+                <span class="method-start">18859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">18973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">20254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLogout status=SUCCESS method=LoginTest.testLogout()[pri:9, instance:com.saucede...)</span>
+                <span class="method-start">24134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">24245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(standard_user, true, standard_user — должен войти)</span>
+                <span class="method-start">25567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">25790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">25892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(locked_out_user, false, locked_out_user — должен быть отказ)</span>
+                <span class="method-start">27155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">27351 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">27451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(problem_user, true, problem_user — должен войти)</span>
+                <span class="method-start">28692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">28924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">29040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(performance_glitch_user, true, performance_glitch_user — должен войти)</span>
+                <span class="method-start">30287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">35522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">35633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(error_user, true, error_user — должен войти)</span>
+                <span class="method-start">36952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">37183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">37293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllUsersLogin(visual_user, true, visual_user — должен войти)</span>
+                <span class="method-start">38548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAllUsersLogin status=SUCCESS method=LoginTest.testAllUsersLogin(java.lang.Strin...)</span>
+                <span class="method-start">38781 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">38889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddOneItemToCart</span>
+                <span class="method-start">40132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAddOneItemToCart status=SUCCESS method=CartTest.testAddOneItemToCart()[pri:1, i...)</span>
+                <span class="method-start">40419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">40522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddMultipleItemsToCart</span>
+                <span class="method-start">41810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAddMultipleItemsToCart status=SUCCESS method=CartTest.testAddMultipleItemsToCar...)</span>
+                <span class="method-start">42168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">42251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testItemAppearsInCart</span>
+                <span class="method-start">43494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testItemAppearsInCart status=SUCCESS method=CartTest.testItemAppearsInCart()[pri:3,...)</span>
+                <span class="method-start">43894 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">43988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveItemFromCart</span>
+                <span class="method-start">45251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testRemoveItemFromCart status=SUCCESS method=CartTest.testRemoveItemFromCart()[pri:...)</span>
+                <span class="method-start">45715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">45818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCartEmptyAfterRemoveAll</span>
+                <span class="method-start">47134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCartEmptyAfterRemoveAll status=SUCCESS method=CartTest.testCartEmptyAfterRemove...)</span>
+                <span class="method-start">67597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">67713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContinueShopping</span>
+                <span class="method-start">69050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testContinueShopping status=SUCCESS method=CartTest.testContinueShopping()[pri:6, i...)</span>
+                <span class="method-start">69405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">69478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutButtonNavigation</span>
+                <span class="method-start">71513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutButtonNavigation status=SUCCESS method=CartTest.testCheckoutButtonNavig...)</span>
+                <span class="method-start">71931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">72038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFullCheckoutFlow</span>
+                <span class="method-start">74340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testFullCheckoutFlow status=SUCCESS method=CheckoutTest.testFullCheckoutFlow()[pri:...)</span>
+                <span class="method-start">75090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">75194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutEmptyFirstName</span>
+                <span class="method-start">76475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutEmptyFirstName status=SUCCESS method=CheckoutTest.testCheckoutEmptyFirs...)</span>
+                <span class="method-start">77083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">77184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutEmptyLastName</span>
+                <span class="method-start">78479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutEmptyLastName status=SUCCESS method=CheckoutTest.testCheckoutEmptyLastN...)</span>
+                <span class="method-start">79120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">79230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutEmptyZip</span>
+                <span class="method-start">80524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutEmptyZip status=SUCCESS method=CheckoutTest.testCheckoutEmptyZip()[pri:...)</span>
+                <span class="method-start">81100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">81213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutAllFieldsEmpty</span>
+                <span class="method-start">82528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutAllFieldsEmpty status=SUCCESS method=CheckoutTest.testCheckoutAllFields...)</span>
+                <span class="method-start">82997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">83109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutSummaryData</span>
+                <span class="method-start">84355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutSummaryData status=SUCCESS method=CheckoutTest.testCheckoutSummaryData(...)</span>
+                <span class="method-start">85041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">85141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutCancelOnStep1</span>
+                <span class="method-start">86408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckoutCancelOnStep1 status=SUCCESS method=CheckoutTest.testCheckoutCancelOnSt...)</span>
+                <span class="method-start">86855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">finishSuite</span>
+                <span class="method-start">86967 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

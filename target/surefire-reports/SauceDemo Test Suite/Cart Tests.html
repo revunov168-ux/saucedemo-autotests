@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Cart Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cart Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 10 12:08:53 MSK 2026</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33146 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testCartEmptyAfterRemoveAll()'><b>testCartEmptyAfterRemoveAll</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-005: Корзина пуста после удаления всех товаров</td>
+<td></td>
+<td>20</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testContinueShopping()'><b>testContinueShopping</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-006: Кнопка Continue Shopping ? каталог</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testCheckoutButtonNavigation()'><b>testCheckoutButtonNavigation</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-007: Кнопка Checkout открывает оформление заказа</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testAddOneItemToCart()'><b>testAddOneItemToCart</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-001: Добавить 1 товар в корзину</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testItemAppearsInCart()'><b>testItemAppearsInCart</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-003: Добавленный товар отображается в корзине</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testAddMultipleItemsToCart()'><b>testAddMultipleItemsToCart</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-002: Добавить 3 товара в корзину</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.testRemoveItemFromCart()'><b>testRemoveItemFromCart</b><br>Test class: com.saucedemo.tests.CartTest<br>Test method: TC-CART-004: Удалить товар из корзины</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.CartTest@70cf32e3</td></tr>
+</table><p>
+</body>
+</html>
